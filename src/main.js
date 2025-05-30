@@ -18,11 +18,11 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 })
 
-function answerToggle(elemento) {
-    const classe = 'faq__questions__item--is-open';
-    const elementoPai = elemento.target.parentNode;
+function answerToggle(element) {
+    const tagClass = 'faq__questions__item--is-open';
+    const elementF = element.target.parentNode;
 
-    elementoPai.classList.toggle(classe);
+    elementF.classList.toggle(tagClass);
 }
 
 function removeActiveButton() {
